@@ -1,3 +1,5 @@
+// 1422. maximum score after splitting a string
+
 class Solution {
 public:
     int maxScore(string s) {
