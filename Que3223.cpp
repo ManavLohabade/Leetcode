@@ -1,0 +1,1 @@
+// Minimum length of string after operations
