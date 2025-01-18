@@ -1,4 +1,4 @@
-//Neighboring
+//Neighboring Bitwise XOR
 
 class Solution {
 public:
