@@ -1,4 +1,6 @@
-// class Solution {
+// Count Servers that Communicate
+
+class Solution {
 public:
     int countServers(vector<vector<int>>& grid) {
         int r = grid.size();
