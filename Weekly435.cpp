@@ -67,3 +67,5 @@ public:
         return 0;
     }
 };
+
+// Could only solve 1st question cuuretly.
