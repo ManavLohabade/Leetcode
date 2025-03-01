@@ -40,3 +40,4 @@ class Solution {
             amount[bob] = temp;
         }
     };
+    
