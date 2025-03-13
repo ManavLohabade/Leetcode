@@ -1,12 +1,4 @@
-// 
-Testcase
-Test Result
-Test Result
-Code
-Code
-Binary Search Approach - Finding First Non-Negative and First Positive Index
-2529. Maximum Count of Positive Integer and Negative Integer
-
+// Maximum Count of Posisitive Integer and Negative Integer 
 class Solution {
     public:
         int maximumCount(vector<int>& nums) {
