@@ -1,14 +1,41 @@
 // Zero Array Transformation II
 
+// 5 testcase not passed
+#include <vector>
+using namespace std;
+
+class Solution {
+public:
+    bool checkAllZero(vector<int>& nums) {
+        for (int num : nums) {
+            if (num != 0) return false;
+        }
+        return true;
+    }
+
+    int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
+        int Q = queries.size();
+        int N = nums.size();
+
+        for (int i = 0; i < Q; i++) {
+            int l = queries[i][0];
+            int r = queries[i][1];
+            int v = queries[i][2];
+            for (int j = l; j <= r; j++) {
+                nums[j] = max(0, nums[j] - v);
+            }
+
+            if (checkAllZero(nums)) {
+                return i + 1; 
+            }
+        }
+
+        return -1; 
+    }
+};
 
 
-
-
-
-
-
-
-
+// All Passed 
 class Solution {
     public:
         int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
