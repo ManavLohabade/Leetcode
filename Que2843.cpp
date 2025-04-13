@@ -1,4 +1,4 @@
-// Count symmeric Integers 
+// Count symmetric Integers 
 
 class Solution {
     public:
